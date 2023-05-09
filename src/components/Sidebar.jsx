@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function Sidebar(props) {
-    const space=' '
     const {
         balance,
         totalDeposit,

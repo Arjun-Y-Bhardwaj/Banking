@@ -29,6 +29,7 @@ function App() {
             setBalance(pre => pre - amount)
         }
         else {
+            alert('Not sufficient balance !')
             // error popup
         }
     }
