@@ -1,0 +1,17 @@
+.history-list{
+    /* background-color: gold; */
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    height: 70vh;
+    overflow-y: scroll;
+     
+}
+@media (max-width:1200px){
+    
+    .history-list{
+        width: 65%;
+    }
+}
+
+

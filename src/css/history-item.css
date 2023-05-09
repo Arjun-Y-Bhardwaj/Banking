@@ -1,0 +1,47 @@
+.history-main{
+    background-color: #5acad2;
+    color: white;
+}
+.history-main-deposit{
+    border: 2px solid greenyellow;
+    background-color: rgba(172, 255, 47, 0.542);
+    margin: 15px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+.history-main-withdraw{
+    border: 2px solid red;
+    background-color: rgba(255, 48, 48, 0.575);
+    margin: 15px;
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+}
+
+
+.history-item{
+    height: 100px;
+    font-size: 2vw;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    
+}
+.history-item-amount{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.history-time-stamp{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.history-time-stamp-item{
+    font-size: 2vh;
+    font-weight: bold;
+}
