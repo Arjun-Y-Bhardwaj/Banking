@@ -48,12 +48,13 @@
 }
 @media (max-width:1200px){
     .history-main{
-        height: 22%;
+        /* height: 22%; */
     }
     .history-item{
         margin-top: -30px;
     }
     .history-time-stamp{
         margin-top: -30px;
+        margin-left: 10px;
     }
 }
