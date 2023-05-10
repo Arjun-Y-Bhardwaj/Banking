@@ -13,7 +13,8 @@
     text-align: center;
     padding: 20px;
 }
-.transaction-amount-input-label{
+
+.transaction-amount-input-label {
     font-size: 2.5vw;
     display: flex;
     flex-direction: column;
@@ -29,6 +30,8 @@
     border: solid rgb(255, 185, 249) 1px;
     color: rgb(255, 49, 210);
     width: 25vw;
+    height: 6vh;
+    font-size: 4vh;
 }
 
 .transaction-input:focus {
@@ -50,26 +53,34 @@
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
-.btn-deposit{
+
+.btn-deposit {
     color: greenyellow;
 }
-.btn-withdraw{
+
+.btn-withdraw {
     color: red;
 }
-.btn:hover{
-     transform: scale(1.2);
+
+.btn:hover {
+    transform: scale(1.2);
 
 }
-@media (max-width:1200px){
-    .transaction-main{
+
+@media (max-width:1200px) {
+    .transaction-main {
         width: 70%;
         margin-top: 20px;
         margin-bottom: 0;
     }
-    .transaction-input{
+
+    .transaction-input {
         padding: 4px 8px;
+        height: 3vh;
+        font-size: 2vh;
     }
-    .transaction-submit{
+
+    .transaction-submit {
         margin-top: 22px;
     }
 }
