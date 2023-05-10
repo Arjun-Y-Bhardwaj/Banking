@@ -48,18 +48,29 @@
 }
 @media (max-width:1200px){
     .history-main{
-        /* width: 100%; */
+        width: 105%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .history-item{
         margin-top: -30px;
     }
     .history-time-stamp{
         margin-top: -30px;
-        margin-left: 10px;
+        display: flex;
+        justify-content: flex-end;
+        /* margin-right: -2px; */
     }
     .history-time-stamp-item{
         font-size: 1.5vw;
         font-weight: bold;
     }
+    .ss-day{
+        margin-left: -5px;
+    }
+    .ss-time{
+        margin-left: 5px;
+    }
+    
     
 }

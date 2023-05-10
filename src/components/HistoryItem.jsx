@@ -17,8 +17,8 @@ export default function HistoryItem({ transaction }) {
                         <div className='history-item-type'>{type}</div>
                     </div>
                     <div className='history-time-stamp'>
-                        <div className='history-time-stamp-item ss'>{time}</div>
-                        <div className='history-time-stamp-item ss'>{day}</div>
+                        <div className='history-time-stamp-item ss-time'>{time}</div>
+                        <div className='history-time-stamp-item ss-day'>{day}</div>
 
 
                     </div>
