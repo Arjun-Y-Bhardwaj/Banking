@@ -42,12 +42,21 @@
 .s-i-w {
     box-shadow: 0 0 22px 1px #ff4e4e;
 }
-
+.s-i-amt{
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw ;
+    /* text-align: center; */
+}
 @media (max-width:1200px) {
     
     .sidebar-item {
+        display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
         margin: 8% 5px;
+    }
+    .s-i-amt{
+        font-size: 2vw;
     }
 }

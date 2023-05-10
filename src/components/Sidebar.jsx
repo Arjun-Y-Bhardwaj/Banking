@@ -12,19 +12,19 @@ export default function Sidebar(props) {
                 className='sidebar-item s-i-bal'
             >
                 <div s-i-bal-item>Balance:&nbsp;</div> 
-                <div s-i-bal-item> ₹ {balance}</div>
+                <div className='s-i-amt'> ₹ {balance}</div>
             </div>
             <div
                 className='sidebar-item s-i-d'
             >
                 <div>Total Deposit:&nbsp;</div>
-                <div>₹ {totalDeposit}</div>
+                <div className='s-i-amt'>₹ {totalDeposit}</div>
             </div>
             <div
                 className='sidebar-item s-i-w'
             >
                 <div>Total Withdrawl:&nbsp;</div>
-                <div>₹ {totalWithdraw}</div>
+                <div className='s-i-amt'>₹ {totalWithdraw}</div>
             </div>
         </div>
     )
