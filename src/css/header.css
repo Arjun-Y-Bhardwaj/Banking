@@ -1,5 +1,5 @@
-.header-grid{
-    font-size: 1.5vw;
+.header-grid {
+    font-size: 1vw;
     height: 2rem;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
@@ -8,15 +8,27 @@
     align-items: center;
     padding: 30px 40px;
     border-bottom: 1px dotted rgb(166, 82, 117);
-    
+
+
 }
-.meimg{
+
+.header-name {
+    color: rgb(52, 230, 224);
+    font-size: 1.5vw;
+}
+
+.meimg {
     max-width: 1.8rem;
     max-height: 1.8rem;
 }
-@media (max-width:1200px){
-    .header-grid{
+
+@media (max-width:1200px) {
+    .header-grid {
         font-size: 2vw;
         padding: 10px 40px;
     }
+    .header-name{
+        font-size: 2.5vw;
+    }
+
 }
