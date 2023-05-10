@@ -6,7 +6,7 @@ export default function HistoryItem({ transaction }) {
         time,
         day
     } = transaction;
-    const type = (transaction.type === 'd') ? 'Deposited' : 'Withdrawed'
+    const type = (transaction.type === 'd') ? 'Deposited' : 'Withdrawn'
 
     function giveDiv() {
         if (transaction.type === 'd') {
