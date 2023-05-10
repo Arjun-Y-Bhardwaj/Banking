@@ -35,6 +35,7 @@
 }
 
 .history-time-stamp{
+    font-size: 12vw;
     display: flex;
     justify-content: flex-end;
     margin-right: 10%;
@@ -42,6 +43,17 @@
     padding-bottom: 20px;
 }
 .history-time-stamp-item{
-    font-size: 2vh;
+    font-size: 1vw;
     font-weight: bold;
+}
+@media (max-width:1200px){
+    .history-main{
+        height: 22%;
+    }
+    .history-item{
+        margin-top: -30px;
+    }
+    .history-time-stamp{
+        margin-top: -30px;
+    }
 }
