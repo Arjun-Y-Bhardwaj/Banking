@@ -7,7 +7,7 @@ import Sidebar from './Sidebar'
 import Transaction from './Transaction'
 import HistoryList from './HistoryList'
 
-
+const LOCAL_STORAGE_KEY = 'transactionsKey';
 export const bankContext = new createContext();
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
     const [totalDeposit, setTotalDeposit] = useState(0)
     const [totalWithdraw, setTotalWithdraw] = useState(0)
     const [transactions, setTransactions] = useState(sampleTransaction)
+
 
     function handleTransaction(amount, type) {
 
@@ -75,9 +76,9 @@ function App() {
     }
     return (
         <bankContext.Provider value={bankContextValue} >
-            <img src={bg} alt="hello"  className='img1'/>
+            <img src={bg} alt="hello" className='img1' />
             {/* <img src={bg} alt="hello"  className='img1'/> */}
-            
+
             <Header />
             <Sidebar
                 balance={balance}

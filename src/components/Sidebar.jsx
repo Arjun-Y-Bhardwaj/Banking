@@ -11,7 +11,7 @@ export default function Sidebar(props) {
             <div
                 className='sidebar-item s-i-bal'
             >
-                <div s-i-bal-item>Balance:&nbsp;</div> 
+                <div >Balance:&nbsp;</div> 
                 <div className='s-i-amt'> ₹ {balance}</div>
             </div>
             <div
